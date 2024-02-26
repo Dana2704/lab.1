@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dia lab1</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="assignmentOne">
+				<h1 class="title">Натуральні числа</h1>
+				<p class="text">Введіть натуральні числа, розділені пробілами</p>
+				<input type="text" id="natural-num" />
+				<button class="btn">Знайти</button>
+				<div class="output"></div>
+			</div>
+
+			<div class="assignmentTwo">
+				<h1 class="title">Прописом числа</h1>
+				<p>Введіть число:</p>
+				<input type="text" id="numberInput" />
+				<button id="convertToWords">Перетворити</button>
+
+				<div id="outputWords"></div>
+			</div>
+			<div class="assignmentThree">
+				<h1 class="title">змінюється на прописну</h1>
+				<input type="text" id="wordInput" oninput="changeCase()" />
+				<div id="outputThree"></div>
+			</div>
+		</div>
+	</body>
+</html>
